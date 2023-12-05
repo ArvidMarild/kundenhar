@@ -1,88 +1,110 @@
 #wrapper {
-    display: grid;
-    height: 100rem;
-    grid-template-columns: 100%;
-    grid-template-rows: 8% 2592px 20% 40% 15%;
-    grid-template-areas:
-    "hd"
-    "mn"
-    "at"
-    "s1"
-    "ft";
-  }
+  display: grid;
+  height: 100rem;
+  grid-template-columns: 100%;
+  grid-template-rows: 8% 2592px 20% 40% 15%;
+  grid-template-areas:
+  "hd"
+  "mn"
+  "at"
+  "s1"
+  "ft";
+}
 
-  header {
-    grid-area: hd;
-    background-color: #c5f0cf;
-    border-bottom: groove;
-    border-color: #333533;
-  }
+header {
+  grid-area: hd;
+  background-color: #c5f0cf;
+  border-bottom: groove;
+  border-color: #333533;
+}
 
-  .navbar {
-    display: flex;
-  }
+.navbar {
+  display: flex;
+}
 
-  main {
-    grid-area: mn;
-    background-image: url("landskape.jpg");
-    object-position: center;
-  }
+main {
+  grid-area: mn;
+  background-image: url("landskape.jpg");
+  object-position: center;
+}
 
-  article {
-    grid-area: at;
-  }
+article {
+  grid-area: at;
+}
 
-  section {
-    grid-area: s1;
-  } 
+section {
+  grid-area: s1;
+} 
 
-  footer {
-    grid-area: ft;
-  } 
+footer {
+  grid-area: ft;
+} 
 
-  .fitted {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
+.fitted {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 
-  body {
-    margin: 0px;
-  }
+body {
+  margin: 0px;
+}
 
-  @font-face {
-    font-family: ArchivoBlack;
-    src: url(ArchivoBlack-Regular.ttf);
-  }
+@font-face {
+  font-family: ArchivoBlack;
+  src: url(ArchivoBlack-Regular.ttf);
+}
 
-  h1 {
-    font-family: ArchivoBlack;
-    text-align: center;
-    font-size: 5rem;
-    margin-top: 8rem;
-    letter-spacing: 2rem;
-    margin-left: 5px;
-    margin-bottom: 0px;
-  }
+h1 {
+  font-family: ArchivoBlack;
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 8rem;
+  letter-spacing: 2rem;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
 
-  main span{
-    height: 8px;
-    width: 40rem;
-    background-color: goldenrod;
-    border-radius: 10px;
-    position: absolute;
-    margin-left: 23%;
-  }
+main span{
+  height: 8px;
+  width: 40rem;
+  background-color: goldenrod;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 23%;
+}
 
-  main p {
-    font-family: monospace;
-    margin: 5rem;
-    text-align: justify;
-  }
+#bibel {
+  font-family: monospace;
+  margin: 5rem;
+  text-align: justify;
+}
 
-  h2 {
-    font-family: ArchivoBlack;
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 10rem;
-  }
+h2 {
+  font-family: ArchivoBlack;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 10rem;
+}
+
+#location {
+  display: flex;
+}
+
+#Saudi_Arabia {
+  background-color: orange;
+}
+
+#Washington {
+  background-color: orange;
+}
+
+#Cornwall {
+  background-color: orange;
+}
+
+main div p {
+  font-family: monospace;
+  font-size: 15px;
+}
+
