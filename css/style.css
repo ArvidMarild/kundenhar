@@ -78,6 +78,7 @@ main span {
   font-family: monospace;
   margin: 5rem;
   text-align: justify;
+  letter-spacing: 3px;
 }
 
 h2 {
@@ -90,7 +91,7 @@ h2 {
 #location {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 #saudi_arabia {
@@ -117,6 +118,7 @@ main div p {
   background-color: #c5f0cf;
   margin: 0px;
   padding: 1rem;
+  text-align: center;
 }
 
 main div img {
@@ -134,13 +136,15 @@ h3 {
 }
 
 #saudi_arabia:hover {
-  transform: scale(1.1);
+  flex-grow: 4;
 }
 
 #washington:hover {
-  transform: scale(1.1);
+  flex-grow: 4;
 }
 
 #cornwall:hover {
-  transform: scale(1.1);
+  flex-grow: 4;
 }
+
+/* transform: scale(1.1); */

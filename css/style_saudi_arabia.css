@@ -1,0 +1,35 @@
+#wrapper {
+    display: grid;
+    height: 100rem;
+    grid-template-columns: 100%;
+    grid-template-rows: 8% 2592px 20% 40% 15%;
+    grid-template-areas:
+      "hd"
+      "mn"
+      "at"
+      "s1"
+      "ft";
+  }
+
+  header {
+    grid-area: hd;
+    background-color: #c5f0cf;
+    border-bottom: groove;
+    border-color: #333533;
+  }
+
+  main {
+    grid-area: mn;
+    background-image: url("saudi\ arabia.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .fitted {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  h1 {
+    text-align: center;
+  }
