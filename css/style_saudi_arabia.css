@@ -13,15 +13,10 @@
 
   header {
     grid-area: hd;
-    background-color: #c5f0cf;
-    border-bottom: groove;
-    border-color: #333533;
   }
 
   main {
     grid-area: mn;
-    background-image: url("saudi\ arabia.jpg");
-    background-repeat: no-repeat;
   }
 
   .fitted {
@@ -30,6 +25,45 @@
     object-fit: contain;
   }
 
+  @font-face {
+    font-family: ArchivoBlack;
+    src: url(ArchivoBlack-Regular.ttf);
+  }
+
   h1 {
+    font-family: ArchivoBlack;
     text-align: center;
+    font-size: 5rem;
+    margin-top: 8rem;
+    letter-spacing: 2rem;
+  }
+
+  body {
+    margin:0;
+    background-image: url("saudi_background.jpg");
+    background-repeat: no-repeat;
+  }
+
+  #how_to {
+    display: flex;
+    margin: 3rem;
+    background-color: #333533;
+  }
+
+  h2 {
+    padding-top: 20rem;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10rem;
+    color: #F9F6EE;
+    text-shadow: 4px 4px #333533;
+  }
+
+  main span {
+    height: 8px;
+    width: 40rem;
+    background-color: goldenrod;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 23%;
   }

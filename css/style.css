@@ -13,9 +13,11 @@
 
 header {
   grid-area: hd;
-  background-color: #c5f0cf;
-  border-bottom: groove;
-  border-color: #333533;
+  background-color: #F9F6EE;
+  width: 25%;
+  justify-self: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .navbar {
@@ -24,7 +26,6 @@ header {
 
 main {
   grid-area: mn;
-  background-image: url("landskape.jpg");
   object-position: center;
 }
 
@@ -47,6 +48,8 @@ footer {
 }
 
 body {
+  background-image: url("landskape.jpg");
+  background-repeat: no-repeat;
   margin: 0px;
 }
 
@@ -61,7 +64,8 @@ h1 {
   font-size: 5rem;
   margin-top: 8rem;
   letter-spacing: 2rem;
-  margin-left: 5px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
   margin-bottom: 0px;
 }
 
