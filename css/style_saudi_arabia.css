@@ -13,6 +13,11 @@
 
   header {
     grid-area: hd;
+    background-color: #2C4738;
+    width: 25%;
+    justify-self: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
   }
 
   main {
@@ -36,6 +41,7 @@
     font-size: 5rem;
     margin-top: 8rem;
     letter-spacing: 2rem;
+    margin-bottom: 0px;
   }
 
   body {
@@ -46,12 +52,12 @@
 
   #how_to {
     display: flex;
+    gap: 1rem;
     margin: 3rem;
-    background-color: #333533;
   }
 
   h2 {
-    padding-top: 20rem;
+    padding-top: 8rem;
     text-align: center;
     font-size: 3rem;
     margin-top: 10rem;
@@ -66,4 +72,21 @@
     border-radius: 10px;
     position: absolute;
     margin-left: 23%;
+  }
+
+  .step {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F6EE;
+    width: 33%;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin: 2px;
+    font-family: ArchivoBlack;
+  }
+
+  p {
+    font-family: monospace;
   }
