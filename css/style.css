@@ -48,9 +48,14 @@ footer {
   object-fit: contain;
 }
 
-body {
+#index {
   background-image: url("landskape.jpg");
   background-repeat: no-repeat;
+  margin: 0px;
+}
+
+#faq {
+  background-color: #F9F6EE;
   margin: 0px;
 }
 
@@ -102,19 +107,7 @@ h2 {
   margin-bottom: 3rem;
 }
 
-#saudi_arabia {
-  height: 100%;
-  width: 32%;
-  transition: all 0.5s ease-in-out;
-}
-
-#washington {
-  height: 100%;
-  width: 32%;
-  transition: all 0.5s ease-in-out;
-}
-
-#cornwall {
+.saudi_arabia {
   height: 100%;
   width: 32%;
   transition: all 0.5s ease-in-out;
@@ -136,6 +129,7 @@ div img {
 }
 
 h3 {
+  font-family: ArchivoBlack;
   text-align: center;
   background-color: #c5f0cf;
   margin: 0px;
@@ -143,15 +137,7 @@ h3 {
   font-size: 2rem;
 }
 
-#saudi_arabia:hover {
-  flex-grow: 4;
-}
-
-#washington:hover {
-  flex-grow: 4;
-}
-
-#cornwall:hover {
+.saudi_arabia:hover {
   flex-grow: 4;
 }
 
@@ -161,7 +147,9 @@ h4 {
   text-align: center;
   background-color: #c5f0cf;
   padding: 50px;
-  border-radius: 50%;
+  border-style: solid;
+  border-color:darkslategray;
+  border-radius: 5%;
   position: absolute;
   padding: 50px;
   height: 40px;
@@ -170,4 +158,25 @@ h4 {
   margin-top: 70px;
   color:rgb(13, 13, 13)
 }
-/* transform: scale(1.1); */
+
+input{
+  padding: 8px;
+  border: none;
+  font-size: 20px;
+  transform: translate(194%);
+}
+
+#faq_section {
+  background-color:#27ae60;
+}
+
+#questions {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.cards {
+  margin-top: 4rem;
+}
