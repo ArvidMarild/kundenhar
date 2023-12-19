@@ -2,7 +2,7 @@
   display: grid;
   height: 2592px;
   grid-template-columns: 100%;
-  grid-template-rows: 5% 20% 30% 25% 20%;
+  grid-template-rows: 5% 20% 30% 30% 15%;
   grid-template-areas:
     "hd"
     "mn"
@@ -167,6 +167,7 @@ h4 {
   height: 40px;
   margin: 0px;
   margin-left: 42%;
-  margin-top: 50px;
+  margin-top: 70px;
+  color:rgb(13, 13, 13)
 }
 /* transform: scale(1.1); */

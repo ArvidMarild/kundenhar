@@ -1,8 +1,8 @@
 #wrapper {
     display: grid;
-    height: 100rem;
+    height: 150rem;
     grid-template-columns: 100%;
-    grid-template-rows: 8% 2592px 20% 40% 15%;
+    grid-template-rows: 5% 20% 20% 40% 15%;
     grid-template-areas:
       "hd"
       "mn"
@@ -46,8 +46,9 @@
 
   body {
     margin:0;
-    background-image: url("saudi_background.jpg");
+    background-image: url("saudi_croped.jpg");
     background-repeat: no-repeat;
+    background-color:sandybrown;
   }
 
   #how_to {
@@ -57,12 +58,12 @@
   }
 
   h2 {
-    padding-top: 8rem;
     text-align: center;
     font-size: 3rem;
-    margin-top: 10rem;
+    margin-top: 2rem;
     color: #F9F6EE;
     text-shadow: 4px 4px #333533;
+    font-family: ArchivoBlack;
   }
 
   main span {
@@ -79,14 +80,26 @@
     flex-direction: column;
     background-color: #F9F6EE;
     width: 33%;
+    border-radius: 5%;
   }
 
   h3 {
     font-size: 2rem;
     margin: 2px;
     font-family: ArchivoBlack;
+    padding: 10px;
   }
 
   p {
     font-family: monospace;
+    padding: 10px;
+  }
+
+  h4 {
+    font-size: 3rem;
+    color: #F9F6EE;
+    text-shadow: 4px 4px #333533;
+    text-align: center;
+    font-family: ArchivoBlack;
+    margin-block-start: 10rem;
   }
