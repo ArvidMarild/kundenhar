@@ -24,6 +24,18 @@
     grid-area: mn;
   }
 
+  article {
+    grid-area: at;
+  }
+
+  section {
+    grid-area: s1;
+  }
+
+  footer {
+    grid-area: ft;
+  }
+
   .fitted {
     width: 100%;
     height: 100%;
@@ -48,13 +60,14 @@
     margin:0;
     background-image: url("saudi_croped.jpg");
     background-repeat: no-repeat;
-    background-color:sandybrown;
+    background-color:#BF9474;
   }
 
-  #how_to {
+  .cards {
     display: flex;
     gap: 1rem;
     margin: 3rem;
+    justify-content: space-evenly;
   }
 
   h2 {
@@ -102,4 +115,26 @@
     text-align: center;
     font-family: ArchivoBlack;
     margin-block-start: 10rem;
+  }
+
+  .travelers {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: #333533;
+    border-width: 5px;
+    background-color: #2C4738;
+  }
+
+  h5 {
+    font-size: 3rem;
+    font-family: ArchivoBlack;
+    color: #F9F6EE;
+    margin: 1rem;
+  }
+
+  .fitted {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
