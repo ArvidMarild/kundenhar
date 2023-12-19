@@ -138,3 +138,9 @@
     height: 100%;
     object-fit: contain;
   }
+
+  .white {
+    color: #F9F6EE;
+    padding-bottom: 2px;
+    padding-top: 2px;
+  }
