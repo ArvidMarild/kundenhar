@@ -40,6 +40,7 @@ section {
 footer {
   grid-area: ft;
   background-color: #2C4738;
+  display: flex;
 }
 
 .fitted {
@@ -179,4 +180,19 @@ input{
 
 .cards {
   margin-top: 4rem;
+}
+
+#footer_logo {
+  width: 25%;
+  height: 25%;
+}
+
+footer p {
+  color: #F9F6EE;
+  padding: 6px;
+  font-size: 20px;
+}
+
+#footer_text {
+  justify-self: right;
 }
