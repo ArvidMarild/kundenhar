@@ -30,10 +30,15 @@
 
   section {
     grid-area: s1;
+    width: 80%;
+    justify-self: center;
   }
 
   footer {
     grid-area: ft;
+    background-color: #2C4738;
+    display: flex;
+    justify-content: space-between;
   }
 
   .fitted {
@@ -143,4 +148,23 @@
     color: #F9F6EE;
     padding-bottom: 2px;
     padding-top: 2px;
+  }
+
+  #footer_logo {
+    width: 25%;
+    height: 25%;
+  }
+  
+  footer p {
+    color: #F9F6EE;
+    padding: 6px;
+    font-size: 20px;
+  }
+  
+  .margin {
+    margin: 2rem;
+  }
+  
+  footer a {
+    text-decoration: none;
   }

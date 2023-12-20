@@ -41,6 +41,7 @@ footer {
   grid-area: ft;
   background-color: #2C4738;
   display: flex;
+  justify-content: space-between;
 }
 
 .fitted {
@@ -79,7 +80,7 @@ h1 {
 .line {
   height: 8px;
   width: 40rem;
-  background-color: goldenrod;
+  background-color: #27ae60;
   border-radius: 10px;
   position: absolute;
   margin-left: 23%;
@@ -180,9 +181,9 @@ input{
 
 .cards {
   margin-top: 4rem;
-}
+} 
 
-#footer_logo {
+footer img {
   width: 25%;
   height: 25%;
 }
@@ -193,6 +194,10 @@ footer p {
   font-size: 20px;
 }
 
-#footer_text {
-  justify-self: right;
+.margin {
+  margin: 2rem;
+}
+
+footer a {
+  text-decoration: none;
 }
