@@ -51,7 +51,7 @@ footer {
 }
 
 #index {
-  background-image: url("landskape.jpg");
+  background-image: url("landskape_crop.jpg");
   background-repeat: no-repeat;
   margin: 0px;
 }
@@ -172,7 +172,7 @@ input{
   background-color:#27ae60;
 }
 
-#questions {
+.questions {
   margin: 2rem;
   display: flex;
   justify-content: space-evenly;
@@ -192,6 +192,7 @@ footer p {
   color: #F9F6EE;
   padding: 6px;
   font-size: 20px;
+  font-family: monospace;
 }
 
 .margin {
